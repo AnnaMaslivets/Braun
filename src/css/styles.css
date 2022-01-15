@@ -1,0 +1,284 @@
+body{
+	font-family: Arial, sans-serif;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background: #344051;
+	z-index: 4;
+	position: fixed;
+}
+.logo{
+	color: #fff;
+	font-size: 28px;
+	line-height: 60px;
+	float: left;
+}
+
+.menu{
+	float: left;
+
+}
+.menu li{
+	margin-right: 40px;
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	font-size: 16px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.white_buttom:visited{
+	color: white;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container{
+	float: left;
+	width: 100%;
+	color: #2c384a;
+	text-align: center;
+
+}
+.title_container h1{
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.title_container h4{
+	margin-top: 40px;
+	font-size: 18px;
+	color: #79818d;
+}
+.title_container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #79818d;
+	background: none;
+	border-radius: 5px;
+	color: #79818d;
+	font-size: 14px;
+	padding: 0px 16px 0px 16px; 
+	margin: 25px 14px 0px 14px;
+}
+.page2{
+	
+	background: url(../img/bg2.jpg) bottom/100% 48% no-repeat;
+}
+.page2_1{
+
+}
+.page2_2{
+
+	background: url(../img/bg2.jpg) bottom/100% 100% no-repeat;
+}
+.h2{
+	line-height: 80px;
+	color: #263244;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/line.jpg) bottom/70px 3px no-repeat;
+}
+#photo{
+	width: 120px;
+	display: block;
+	margin: 20px auto 50px auto;
+}
+.page2 div{
+	font-size: 13px;
+	color: #3f495a;
+}
+
+.page2 ul{
+	margin: 100px auto 30px 23%;
+}
+.page2 li{
+	margin-right: 70px;
+	float: left;
+	text-align: center;
+
+}
+.page2 li h4{
+	padding: 60px 0px 20px 0px;
+	color: #cf7600;
+	font-weight: bold;
+
+}
+#li1{
+	background: url("../img/li1.png") top/auto 30px no-repeat;
+}
+#li2{
+	background: url("../img/li2.png") 50% 0%/auto 30px no-repeat;
+}
+#li3{
+	background: url("../img/li3.png") 50% 0%/auto 30px no-repeat;
+}
+#li4{
+	background: url("../img/li4.png") 50% 0%/auto 30px no-repeat;
+}
+.simple_page{
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+#bg3{
+	hi: 100%;
+	display: block;
+	margin: 20px auto 50px auto;	
+}
+.simple_page h5{
+	font-weight: bolder;
+}
+.link{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-right: 3%;
+	margin-top:10px;
+	text-align: left;
+	line-height: 20px;
+}
+.simple_page input{
+	background-color: #63b5ae;
+	border-radius: 5%;
+	color: #fff;
+	font-size: 16px;
+	width: 35%;
+	height: 25px;
+	margin: 10px 0px 0px 20px;
+}
+.project{
+	text-align: left;
+	float: left;
+	margin-top:10px;
+	width: 77%;
+}
+.calc{
+	height: 60%;
+	width: 50%;
+	margin: 0px auto 30px auto;
+	line-height: 30px;
+}
+.calc h3{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.calc h4{
+	font-size: 14px;
+	font-weight: bolder;
+	margin-top: 20px;
+}
+
+.calc select{
+	background-color: #eee;
+	width: 100%;
+	height: 30px;
+}
+.calc table{
+	border-top: 1px solid #000;
+	width: 100%;
+	margin-top: 20px;
+}
+.page3{
+	width: 100%;
+	height: 40%;
+	background: url("../img/bg4.jpg") center/100% auto no-repeat;
+}
+.page3 ul{
+	width: 60%;
+	margin: 70px auto 0px auto;
+	color: #323e4f;
+	font-width: bolder;
+}
+.page3 li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #323e4f;
+	font-width: bold;
+	font-size: 16px;
+}
+.h4{
+	color: #323e4f;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 30px 0px 15px 0px;
+}
+.simple_page2{
+	width: 100%;
+	height: 45%;
+	text-align: center;
+}
+.client{
+	height: 80px;
+	margin: 30px 0px;
+}
+.simple_page2 div{
+	width: 40%;
+	margin: 10px auto 0px auto;
+}
+.contacts_page{
+	height: 55%;
+	background: url("../img/bg5.png") bottom/100% auto no-repeat;
+	color: white;
+	text-align: center;
+
+}
+.h2_2{
+	line-height: 80px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/line.jpg) bottom/70px 3px no-repeat;
+}
+.contacts_page ul{
+	width: 35%;
+	margin: 20px auto 20px auto;
+	display: block;
+}
+.contacts_page li{
+	float: left;
+	margin: 0px 0px;
+	width: 33%;
+}
+.contacts_page h4{
+	border: 1px solid white;
+
+}
+
+
+
+@media (max-width: 991px){
+	.title_container, .title_container h4, .title_container input {
+		color: white;
+		position: relative;
+		z-index: 3;
+	}
+	.title_container input{
+		border-color: white;
+	}
+	.main{
+		position: relative;
+	}
+	.main::after{
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.4); 
+		z-index: 2
+
+	}
+}
